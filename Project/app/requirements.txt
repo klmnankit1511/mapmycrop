@@ -1,0 +1,12 @@
+python-dotenv
+bcrypt
+passlib
+fastapi
+pydantic
+openmeteo_requests
+requests_cache
+retry_requests
+pandas
+pymysql
+jose
+pytest
