@@ -1,0 +1,68 @@
+.weather{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+.weather__input{
+    display: flex;
+    height: 100vh;
+    width: 40%;
+    background-color: red;
+    
+}
+.weather__output{
+
+    display: flex;
+    height: 100vh;
+    width: 60%;
+    background-color: green;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+.weather__input__div{
+    display: flex;
+    flex-direction: column;
+    margin: 30% 20%;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+.input__date{
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.input__date input{
+    width: 90%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.weather__input__button button{
+
+    width: 95%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    /* margin-top: 10%; */
+}
+.weather__output__card{
+    display: flex;
+    margin: 10px;
+    /* margin: 5% 10%; */
+    width: 90%;
+    height: 50px;
+    background: yellow;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
